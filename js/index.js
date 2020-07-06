@@ -196,7 +196,7 @@ document.getElementById("val-9").addEventListener("click", function(){
 });
 document.getElementById("dot").addEventListener("click", function(){
     if(resultView){
-        bigDisplay.innerText = "";
+        bigDisplay.innerText = "0";
     }
     if(bigDisplay.innerText.length < 16) {
         if(bigDisplay.innerText == "0"){
